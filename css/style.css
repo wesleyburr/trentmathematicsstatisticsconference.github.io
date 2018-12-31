@@ -18,6 +18,7 @@ body {
 a {
   color: #154734;
   transition: 0.5s;
+  font-weight: bold;
 }
 
 a:hover,
@@ -698,6 +699,58 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+#about .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #154734;
+}
+
+#about .about-btn:hover {
+  background: #154734;
+  color: #fff;
+}
+
+#about .about-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 90px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
+/*--------------------------------------------------------------
+# Registration Section
+--------------------------------------------------------------*/
+#registration {
+	padding: 60px 0px;
+}
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
@@ -888,7 +941,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item p {
-  font-style: italic;
   color: #152b79;
   margin-bottom: 0;
 }
@@ -1123,6 +1175,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #ddd;
 }
 
+#faq #faq-list li.listitems { 
+	border-bottom: 0px; 
+}
+
 #faq #faq-list a {
   padding: 18px 0;
   display: block;
@@ -1132,6 +1188,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   font-weight: 600;
   padding-right: 20px;
+}
+
+#faq #faq-list a.links {
+	display: inline;
+	padding-right: 0px; 
 }
 
 #faq #faq-list i {
@@ -1154,6 +1215,110 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed i::before {
+  content: "\f055" !important;
+}
+
+#faq #faq-list2 {
+  padding: 0;
+  list-style: none;
+}
+
+#faq #faq-list2 li {
+  border-bottom: 1px solid #ddd;
+}
+
+#faq #faq-list2 li.listitems { 
+	border-bottom: 0px; 
+}
+
+#faq #faq-list2 a {
+  padding: 18px 0;
+  display: block;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+#faq #faq-list2 a.links {
+	display: inline;
+	padding-right: 0px; 
+}
+
+#faq #faq-list2 i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#faq #faq-list2 p {
+  margin-bottom: 20px;
+}
+
+#faq #faq-list2 a.collapse {
+  color: #154734;
+}
+
+#faq #faq-list2 a.collapsed {
+  color: #000;
+}
+
+#faq #faq-list2 a.collapsed i::before {
+  content: "\f055" !important;
+}
+
+#faq #faq-list3 {
+  padding: 0;
+  list-style: none;
+}
+
+#faq #faq-list3 li {
+  border-bottom: 1px solid #ddd;
+}
+
+#faq #faq-list3 li.listitems { 
+	border-bottom: 0px; 
+}
+
+#faq #faq-list3 a {
+  padding: 18px 0;
+  display: block;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+#faq #faq-list3 a.links {
+	display: inline;
+	padding-right: 0px; 
+}
+
+#faq #faq-list3 i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#faq #faq-list3 p {
+  margin-bottom: 20px;
+}
+
+#faq #faq-list3 a.collapse {
+  color: #154734;
+}
+
+#faq #faq-list3 a.collapsed {
+  color: #000;
+}
+
+#faq #faq-list3 a.collapsed i::before {
   content: "\f055" !important;
 }
 
@@ -1293,6 +1458,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact {
   padding: 60px 0;
+  background-color: white;
 }
 
 #contact .contact-info {
@@ -1389,6 +1555,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #e0072f;
+}
+
+#about-committee {
+	padding: 60px 0px; 
 }
 
 /*--------------------------------------------------------------
@@ -1663,4 +1833,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+}
+
+.email-address {
+  font-weight: bold;
 }
