@@ -751,6 +751,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding: 60px 0px;
 }
 
+#registration .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #154734;
+  border: 0;
+  color: #fff;
+}
+
+#registration .btn:hover {
+  background-color: #e0072f;
+}
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
@@ -1458,7 +1472,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact {
   padding: 60px 0;
-  background-color: white;
 }
 
 #contact .contact-info {
@@ -1837,4 +1850,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .email-address {
   font-weight: bold;
+}
+
+/* Tables */ 
+table {
+    font-family: "Raleway", sans-serif;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+/* Alternating row colours on the tables */ 
+tr:nth-child(even) {
+	background-color: #f6f7fd;;
+}
+/* Change colour of row on hover */ 
+tr:hover {
+	background-color: #ddd;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #154734;
+    color: white;
 }

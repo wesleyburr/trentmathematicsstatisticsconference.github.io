@@ -74,8 +74,7 @@
               <li><a href="#schedule">Schedule</a></li>
               <li><a href="#speakers">Speakers & Abstracts</a></li>
               <li><a href="#venue">Venue</a></li>
-              <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#sponsors">Sponsors</a></li>
+              <li><a href="#gallery">Gallery</a></li>          
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#contact">Contact</a></li>
               <li class="buy-tickets"><a href="#buy-tickets">Register Now</a></li>
@@ -137,7 +136,6 @@
                 </div>
                 <p>Early bird registration for the 2019 Trent Mathematics and Statistics Conference is now open. The early bird registration fee, available until February 20th, is $10. This fee includes admission to the conference, name tag and conference bag, meals during the conference, and admission to the banquet on Saturday night. After February 20th, the registration fee will be $20.</p>
                 <p>If you are in the Peterborough area, you can pay the registration fee by cash by contacting a member of SUMS (you can email <a class="email-address" href="mailto:tmsc@trentu.ca">tmsc@trentu.ca</a> to arrange this if you would prefer to pay with cash). If you would like to pay by credit card, you can do so online through EventBrite (note that EventBrite charges a processing fee).</p>
-
                 <h2>FINDING ACCOMODATION IF YOU ARE FROM OUT OF TOWN</h2>
                 <p>TMSC welcomes students and faculty from all over Canada and the world. If you would like to attend the conference and are from out of town, we may be able to help you find accommodation with a Trent student for free. If this is something you require, please email us as soon as possible at <a class="email-address" href="mailto:tmsc@trentu.ca">tmsc@trentu.ca</a> and we will do our best to find you somewhere to stay. If you would instead prefer to stay in a hotel, we recommend staying at the <a href="https://www.ihg.com/holidayinn/hotels/us/en/peterborough/ypqca/hoteldetail">Holiday Inn</a> on George Street, since it is one bus ride away from Trent University.</p>
                 <h2>TRAVEL BURSARIES</h2> 
@@ -157,7 +155,103 @@
 				<p>All students are encouraged to apply to give a talk at the conference by submitting an abstract. Submitted abstracts will be reviewed by the organizing committee in order to determine which talks will be accepted, and to determine which order the talks should go in, based on the content of the talk. Abstracts should be approximately 75-150 words and should provide a brief explanation of what your talk will be about. To read a sample abstract from last year's conference, please see the <a href="#faq">Frequently Asked Questions</a> section.</p>
 				<p>In order to determine which talks will be accepted in a timely manner, you will be required to submit a draft of your abstract at the time that you register. This draft should give us a rough idea of your topic, but does not have to be perfect, as it can be revised later. The stronger your draft abstract is, the more likely your talk is to be accepted. Final abstracts will be included in the conference program, as well as the website (if you request it to be). If your talk is accepted, we will contact you by email to let you know the day and time that your talk has been scheduled for. At this point, you can revise your abstract if need be, and you can let us know if you would like to have your final copy of your talk title and abstract included on the website. For this reason, it is very important that you register using an email that you check regularly.</p> 
 				<p>If you want to give a presentation but don't want to give a student talk, you should consider participating in the case study competition. </p>
-              </div>
+				<h2>PARTICIPATING IN THE CASE STUDY COMPETITION</h2>
+				<p>The case study competition will allow teams of 1-4 students to work together to apply their knowledge of Statistics and Data Visualization to a real world dataset. The case study will be very open-ended and teams will have the freedom to be creative with their analysis. While a background in statistics will be an asset, it is by no means required and all students are encouraged to participate in the case study competition.</p>
+				<p>There are a number of reasons why students are encouraged to participate in the case study competition. Students who participate will:</p>
+				<ul>
+					<li>Have the opportunity to work with other students on a fun and educational project</li>
+					<li>Gain experience working with a large and interesting dataset</li>
+					<li>Put what you've learned in your classes into practice with real data</li>
+					<li>Add to your CV / resume</li>
+					<li>Gain experience with public speaking in a stress-free setting, in a way that is less intimidating than giving a student talk</li>
+					<li>Have the chance to win prizes</li>
+				</ul>
+				<p>Each team will be given the opportunity to give a 5 minute presentation using any media of their choice (e.g., poster, slideshow, etc.) to summarize their methods and findings. When determining prize winners, judges will consider a number of factors, such as creativity, analysis methods, and presentation of results. The competition is intended to be open-ended and teams are encouraged to take their analysis in whichever direction best complements the strengths of the team members.</p>
+				<p>Students are allowed to consult faculty members for advice and direction; however, faculty members cannot complete the analysis for the students.</p>
+				<p>Students of all education levels (undergraduate, graduate, PhD) are welcome to participate; however, the education level of the team members will be taken into consideration when determining prize winners.</p>
+				<p>Teams may be composed of students from different universities if desired.</p>
+				<p>Students may use any tools they wish, such as R or Python. Be sure to state any tools you used in your analysis when presenting your results.</p>
+				<h3>The dataset</h3>
+				<p>This year's dataset is a subset of data taken from a <a href="https://www.kaggle.com/datasnaek/youtube-new#INvideos.csv">Kaggle dataset.</a> This dataset contains information on trending YouTube videos in Canada from November 14th, 2017 - June 14th, 2018. It consists of 40881 observations of 12 variables:</p>
+				<table style="undefined;table-layout: fixed; width: 100%">
+					<colgroup>
+					<col>
+					<col>
+					</colgroup>
+					  <tr>
+						<th>Variable</th>
+						<th>Description</th>
+					  </tr>
+					  <tr>
+						<td>video_id</td>
+						<td>An ID used to uniquely identify the YouTube video</td>
+					  </tr>
+					  <tr>
+						<td>trending_date</td>
+						<td>The date that the YouTube video was trending. Format is YY.DD.MM</td>
+					  </tr>
+					  <tr>
+						<td>title</td>
+						<td>The title of the YouTube video</td>
+					  </tr>
+					  <tr>
+						<td>channel_title</td>
+						<td>The title of the channel that posted the YouTube video</td>
+					  </tr>
+					  <tr>
+						<td>publish_time</td>
+						<td>The time and date that the YouTube video was posted</td>
+					  </tr>
+					  <tr>
+						<td>tags</td>
+						<td>Tags that were added to the YouTube video; separated by |</td>
+					  </tr>
+					  <tr>
+						<td>views</td>
+						<td>The number of views on the YouTube video</td>
+					  </tr>
+					  <tr>
+						<td>likes</td>
+						<td>The number of likes on the YouTube video</td>
+					  </tr>
+					  <tr>
+						<td>dislikes</td>
+						<td>The number of dislikes on the YouTube video</td>
+					  </tr>
+					  <tr>
+						<td>comment_count</td>
+						<td>The number of comments on the YouTube video</td>
+					  </tr>
+					  <tr>
+						<td>thumbnail_link</td>
+						<td>An image link to the thumbnail of the YouTube video</td>
+					  </tr>
+					  <tr>
+						<td>description</td>
+						<td>The text description of the YouTube video</td>
+					  </tr>
+				</table><br>
+				<p>Ready to get started? Use the button below to download the dataset for the case study competition.</p>
+				<div class="text-center">
+                    <a class="btn btn-danger" role="button" href="youtube.csv" download="youtube.csv">Download</a>
+                </div><br>
+				<h2>WHAT DO I NEED IN ORDER TO REGISTER?</h2>
+				<p>To complete the registration, you will need the following information:</p>
+				<ul>
+					<li>Contact information (Name, email, university / institution)</li>
+					<li>Dietary restrictions / allergies</li>
+					<li>A picture of yourself, if you'd like to have your picture included on the website in the "Who's Coming" section</li> 
+					<li>If you are a student: whether or not you'd like to give a student talk, and whether or not you'd like to participate in the case study competition (and the names of your teammates if you'd like to participate in the case study competition)</li>
+					<li>If you are a faculty member: whether or not you'd be interested in helping to judge the student talks or case study competition</li>
+					<li>If you are a graduate or PhD student: whether or not you'd be interested in participating in a discussion panel where undergraduate students could ask questions about your academic / career path</li>
+					<li>If you're a student traveling from out of town: whether or not you'd like to request accommodation with a local student, a rideshare / carpool, as well as the names of anyone you'd be traveling with if you are requesting a travel bursary</li>
+					<li>If you're a student and you aren't traveling from out of town: whether or not you'd like to host students from out of town for the duration of the conference</li>
+				</ul>
+				<div class="text-center">
+                    <button type="button" class="btn" onclick="location.href='https://goo.gl/forms/VbQ1CiDNjmFb1lcx2'">Register Now</button>
+                </div>
+			  </div>
+			  
 
             </section>
 
@@ -557,25 +651,12 @@
 
                     </section>
 
-                    <!--==========================
-                      Sponsors Section
-                      ============================-->
-                      <section id="sponsors" class="section-with-bg wow fadeInUp">
-
-                        <div class="container">
-                          <div class="section-header">
-                            <h2>Sponsors</h2>
-                          </div>
-
-
-                        </div>
-
-                      </section>
+                    
 
                       <!--==========================
                         F.A.Q. Section
                         ============================-->
-                        <section id="faq" class="wow fadeInUp">
+                        <section id="faq" class="section-with-bg wow fadeInUp">
 
                           <div class="container">
 
@@ -640,11 +721,29 @@
                                   </li>
 
                                   <li>
-                                    <a data-toggle="collapse" class="collapsed" href="#faq4">How do I get to Trent University? <i class="fa fa-minus-circle"></i></a>
+                                    <a data-toggle="collapse" class="collapsed" href="#faq4">How do I get to Trent University (and the Student Centre)? <i class="fa fa-minus-circle"></i></a>
                                     <div id="faq4" class="collapse" data-parent="#faq-list">
-                                      <p>Trent is conviently located near many major cities in Ontario. 
-                                      
-                                      </p>
+                                      <p>Trent is conveniently located near many major cities in Ontario.</p>
+									  <h3>Getting to Trent By Car</h3>
+									  <h4>From London (3 hours), Waterloo (2.25 hours), Toronto (1.5 hours) or Oshawa (1 hour)</h4>
+									  <p>Take the 401E to the ON-115 Highway. Take the ON-115 until it ends and turns into Television Road. Continue onto Television Road, turn right onto Parkhill Road / County Road 4, left onto University Road, left onto Nassau Mills Road and follow signs for Trent University.</p>
+									  <h4>From Ottawa (3.25 hours)</h4>
+									  <p>Take the 417W to Highway 7. Stay on Highway 7 until you reach Peterborough. Turn right onto Television Road, right onto Parkhill Road / County Road 4, left onto University Road, left onto Nassau Mills Road and follow signs for Trent University.</p>
+									  <h4>From Kingston (2 hours)</h4>
+									  <p>Take the 401W to exit 464 (County Road 28, signs for Peterborough). Turn right onto County Road 28, continue until it turns into ON-115. Take the ON-115 until it ends and turns into Television Road. Continue onto Television Road, turn right onto Parkhill Road / County Road 4, left onto University Road, left onto Nassau Mills Road and follow signs for Trent University.</p>
+									  <h4>From Montreal (4.75 hours)</h4>
+									  <p>Take Autoroute 720W and continue onto Autoroute 20O. Follow signs for Québec 138 / Dollard Avenue / 1re Ave / Pont Honoré-Mercier, and continue onto 401W. Take the 401W to exit 464 (County Road 28, signs for Peterborough). Turn right onto County Road 28, continue until it turns into ON-115. Take the ON-115 until it ends and turns into Television Road. Continue onto Television Road, turn right onto Parkhill Road / County Road 4, left onto University Road, left onto Nassau Mills Road and follow signs for Trent University.</p>
+									  <h3>Getting to Trent By Public Transit</h3>
+									  <h4>From London, Waterloo, Montreal, or Kingston</h4>
+									  <p>The easiest way to get to Peterborough using public transit from any of the above locations is to take either a bus or Via Rail to Oshawa, and then follow directions from Oshawa.</p>								
+									  <h4>From Toronto</h4>
+									  <p></p>
+									  <h4>From Oshawa</h4>
+									  <p></p>
+									  <h4>From Ottawa (4.25 hours)</h4>
+									  <p>Take the Greyhound from Ottawa to downtown Peterborough, then take the West Bank (route 40) or East Bank (route 42) bus from the bus terminal which is directly beside the Greyhound station. Trent bus schedules are available <a class="links" href="https://trentcentral.ca/documents/transit-schedules/TransitBrochure1819_web.pdf">here</a>.
+									  <h3>Getting to the Trent Student Centre</h3>
+									  <p>To get to the student centre, enter campus from the West Bank (not East Bank) side of campus and follow signs for the student centre. A campus map is available <a href="https://www.trentu.ca/map/?id=1207#!ct/0?mc/44.357072629700504,-78.28900743217676?z/17?lvl/0">here.</a>
                                     </div>
                                   </li>
 
@@ -661,7 +760,7 @@
 								  <li>
                                     <a data-toggle="collapse" class="collapsed" href="#faq6">What is the dress code? <i class="fa fa-minus-circle"></i></a>
                                     <div id="faq6" class="collapse" data-parent="#faq-list">
-                                      <p>While there is no specific dress code, many students will dress "business casual" at academic conferences. At the banquet dinner, you may wish to dress up a bit more, but again, there is no required dress code. </p>
+                                      <p>While there is no specific dress code, many students will dress "business casual" at academic conferences.</p>
                                     </div>
                                   </li>
 
@@ -771,41 +870,17 @@
                               </div>
                             </div>
 
-                            <h3>Questions for potential sponsors</h3> 
-                            <div class="row justify-content-center">
-                              <div class="col-lg-9">
-                                <ul id="faq-list3">
-
-                                  <li>
-                                    <a data-toggle="collapse" class="collapsed" href="#faq14">Why should we sponsor this event? <i class="fa fa-minus-circle"></i></a>
-                                    <div id="faq14" class="collapse" data-parent="#faq-list3">
-                                      <p>
-                                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                      </p>
-                                    </div>
-                                  </li>
-
-                                  <li>
-                                    <a data-toggle="collapse" class="collapsed" href="#faq15">We want to support this event, but are unable to support it financially. Is there another way we can help out?<i class="fa fa-minus-circle"></i></a>
-                                    <div id="faq15" class="collapse" data-parent="#faq-list3">
-                                      <p>
-                                      We are very appreciative for any support of this event! In addition to financial support, we are also looking to partner with businesses and organizations in a number of other ways. For example, we are 
-                                      </p>
-                                    </div>
-                                  </li>	
-
-                                </ul>
-                              </div>
-                            </div>
+                            
 
                           </div>
 
                         </section>
 
-                        <!--==========================
+                        <!--=====
+						=====================
                           Buy Ticket Section
                           ============================-->
-                          <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+                          <section id="buy-tickets" class="wow fadeInUp">
                             <div class="container">
 
                               <div class="section-header">
@@ -827,7 +902,7 @@
                                       </ul>
                                       <hr>
                                       <div class="text-center">
-                                        <button type="button" class="btn" onclick="location.href='https://www.google.com'">Register Now</button>
+                                        <button type="button" class="btn" onclick="location.href='https://goo.gl/forms/VbQ1CiDNjmFb1lcx2'">Register Now</button>
                                       </div>
                                     </div>
                                   </div>
@@ -844,7 +919,7 @@
                             <!--==========================
                               Contact Section
                               ============================-->
-                              <section id="contact" class="wow fadeInUp">
+                              <section id="contact" class="section-with-bg wow fadeInUp">
 
                                 <div class="container">
 
